@@ -4,4 +4,4 @@ Recently I've found myself trying to remember what I need to do, as I often have
 ## Privacy??
 Jot will never store your data or notes. It's as simple as that.
 ## That's all?
-That's all. Jot's sole purpose is to give you a quick place to jot some things down.
+That's all. Jot's sole purpose is to give you a quick place to *jot* some things down.
