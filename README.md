@@ -6,4 +6,4 @@
 <h2>Privacy??</h2>
 <p>Jot will never store your data or notes. It's as simple as that.</p>
 <h2>That's all?</h2>
-<p>That's all. Jot's sole purpose is to give you a quick place to *jot* some things down.</p>
+<p>That's all. Jot's sole purpose is to give you a quick place to <em>jot</em> some things down.</p>
