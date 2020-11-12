@@ -13,3 +13,8 @@
 <h2>that's all?</h2>
 
 <p>That's all. Jot's sole purpose is to give you a quick place to <em>jot</em> some things down.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li>Icon made by Freepik from www.flaticon.com</li>
+</ul>
