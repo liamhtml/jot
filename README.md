@@ -16,5 +16,5 @@
 
 <h2>Sources</h2>
 <ul>
-  <li>Icon made by Freepik from <a href="https://www.flaticon.com">www.flaticon.com</a></li>
+  <li>Icon made by Freepik from <a href="https://www.flaticon.com">flaticon.com</a></li>
 </ul>
