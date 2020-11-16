@@ -14,7 +14,8 @@
 
 <p>That's all. Jot's sole purpose is to give you a quick place to <em>jot</em> some things down.</p>
 
-<h2>Sources</h2>
+<h2>sources</h2>
+
 <ul>
   <li>Icon made by Freepik from <a href="https://www.flaticon.com">flaticon.com</a></li>
 </ul>
