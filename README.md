@@ -1,5 +1,5 @@
 <img src="https://raw.githubusercontent.com/liamhtml/jot/main/jot.ico" alt="jot icon" width="60px">
-<!-- Icon made by Freepik from www.flaticon.com -->
+
 <h1>jot</h1>
 
 <h2>a simple idea</h2>
@@ -14,13 +14,13 @@
 
 <p>That's all. Jot's sole purpose is to give you a quick place to <em>jot</em> some things down.</p>
 
-<h2>sources</h2>
-
 <h2>update log</h2>
 
 <p>11/16/2020: Added "disable spellcheck" checkbox. The purpose is pretty obvious, while it is checked the <code>spellcheck</code> attribute on the <code>textarea</code> element is set to <code>false</code></p>
 <p>11/16/2020: Added update log</p>
   
+<h2>sources</h2>
+
 <ul>
   <li>Icon made by Freepik from <a href="https://www.flaticon.com">flaticon.com</a></li>
 </ul>
