@@ -106,14 +106,14 @@
     <h1 style="margin: 10px">jot</h1>
     <textarea rows="5" cols="30" id="jot" placeholder="Jot down your notes here!"></textarea>
     <br>
-    <input type="checkbox" id="spellcheck-checkbox" onclick="toggleSpellCheck()"><span style="display: inline;">  Disable Spellcheck</span>
+    <input type="checkbox" id="spellcheck-checkbox" onclick="toggleSpellCheck()" checked><span style="display: inline;">  Spellcheck</span>
     <script>
       function toggleSpellCheck() {
         var checkBox = document.getElementById("spellcheck-checkbox");
         if (checkBox.checked == true) {
-          document.getElementsByTagName("TEXTAREA")[0].setAttribute("spellcheck", "false");
-        } else {
           document.getElementsByTagName("TEXTAREA")[0].setAttribute("spellcheck", "true");
+        } else {
+          document.getElementsByTagName("TEXTAREA")[0].setAttribute("spellcheck", "false");
         }
       }
     </script>
