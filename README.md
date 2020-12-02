@@ -16,7 +16,7 @@
 
 <h2>update log</h2>
 
-<p>11/16/2020: Added "disable spellcheck" checkbox. The purpose is pretty obvious, while it is checked the <code>spellcheck</code> attribute on the <code>textarea</code> element is set to <code>false</code></p>
+<p>11/16/2020: Added "spellcheck" checkbox. The purpose is pretty obvious, while it is checked the <code>spellcheck</code> attribute on the <code>textarea</code> element is set to <code>true</code> using some JavaScript. Otherwise, spellcheck will be disabled.</p>
 <p>11/16/2020: Added update log</p>
   
 <h2>sources</h2>
