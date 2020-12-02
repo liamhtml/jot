@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/liamhtml/jot/main/jot.ico" alt="jot icon" width="60px">
+<img src="https://raw.githubusercontent.com/liamhtml/jot/main/assets/img/jot.ico" alt="jot icon" width="60px">
 
 <h1>jot</h1>
 
