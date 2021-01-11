@@ -12,28 +12,23 @@
       html {
         text-align: center;
         font-family: monospace;
-        background-color: #99e5b5;
       }
 
       #jot {
-        border: 3px #b53838 solid;
+        border: 3px #222222 solid;
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3.5px;
         background-color: white;
-        color: #b53838;
+        color: black;
         font-weight: bold;
       }
 
-      #jot:focus {
-        border: 3px #b53838 solid;
-      }
-
       #new-note {
-        background-color: #b53838;
+        background-color: #222222;
         color: white;
         padding: 5.3px;
-        border: 3px #b53838 solid;
+        border: 3px #222222 solid;
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
@@ -42,10 +37,10 @@
       }
 
       #new-note:hover {
-        background-color: white;
-        color: #b53838;
+        background-color: #00000;
+        color: white;
         padding: 5.3px;
-        border: 3px #b53838 solid;
+        border: 3px #00000 solid;
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
@@ -53,52 +48,49 @@
 
       h1 {
         font-weight: bolder;
-        color: #b53838;
+        color: #222222;
       }
 
       p {
-        color: #b53838;
+        color: #222222;
       }
 
       span {
-        color: #b53838;
+        color: #000000;
 
       }
 
       a:link {
-        color: #b53838;
+        color: #000000;
       }
 
       a:visited {
-        color: #c15b5b;
+        color: #222222;
       }
 
       a:hover {
-        color: #c15b5b;
+        color: #222222;
         text-decoration: none;
       }
 
       a:active {
-        color: #c15b5b;
+        color: #222222;
       }
 
       ::placeholder {
-        color: #da6666;
+        color: #c8c8c8;
         opacity: 1;
         font-family: monospace;
-        font-weight: bold;
       }
 
       :-ms-input-placeholder {
-        color: #da6666;
+        color: #c8c8c8;
         font-family: monospace;
-        font-weight: bold;
       }
 
       ::-ms-input-placeholder {
-        color: #da6666;
+        color: #c8c8c8;
         font-family: monospace;
-        font-weight: bold;
       }
     </style>
   </head>
@@ -106,7 +98,7 @@
     <h1 style="margin: 10px">jot</h1>
     <textarea rows="5" cols="30" id="jot" placeholder="Jot down your notes here!"></textarea>
     <br>
-    <input type="checkbox" id="spellcheck-checkbox" onclick="toggleSpellCheck()" checked><span style="display: inline;">  Spellcheck</span>
+    <input type="checkbox" id="spellcheck-checkbox" onclick="toggleSpellCheck()" checked><span style="display: inline; font-weight: bold;">  Spellcheck</span>
     <script>
       function toggleSpellCheck() {
         var checkBox = document.getElementById("spellcheck-checkbox");
@@ -123,6 +115,5 @@
     <br>
     <br>
     <a href="https://GitHub.com/liamhtml" target="_blank" style="margin-top: 5px; display: inline-block;">GitHub</a>
-    <!-- happy holidays! -->
   </body>
 </html>
