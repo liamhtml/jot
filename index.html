@@ -14,16 +14,6 @@
         font-family: monospace;
       }
 
-      #jot {
-        border: 3px #222222 solid;
-        border-radius: 5px;
-        margin-bottom: 10px;
-        padding: 3.5px;
-        background-color: white;
-        color: black;
-        font-weight: bold;
-      }
-
       #new-note {
         background-color: #222222;
         color: white;
@@ -46,20 +36,6 @@
         font-weight: bold;
       }
 
-      h1 {
-        font-weight: bolder;
-        color: #222222;
-      }
-
-      p {
-        color: #222222;
-      }
-
-      span {
-        color: #000000;
-
-      }
-
       a:link {
         color: #000000;
       }
@@ -77,41 +53,23 @@
         color: #222222;
       }
 
-      ::placeholder {
-        color: #c8c8c8;
-        opacity: 1;
-        font-family: monospace;
-      }
-
-      :-ms-input-placeholder {
-        color: #c8c8c8;
-        font-family: monospace;
-      }
-
-      ::-ms-input-placeholder {
-        color: #c8c8c8;
-        font-family: monospace;
-      }
     </style>
   </head>
   <body>
-    <h1 style="margin: 10px">jot</h1>
-    <textarea rows="5" cols="30" id="jot" placeholder="Jot down your notes here!"></textarea>
-    <br>
-    <input type="checkbox" id="spellcheck-checkbox" onclick="toggleSpellCheck()" checked><span style="display: inline; font-weight: bold;">  Spellcheck</span>
-    <script>
-      function toggleSpellCheck() {
-        var checkBox = document.getElementById("spellcheck-checkbox");
-        if (checkBox.checked == true) {
-          document.getElementsByTagName("TEXTAREA")[0].setAttribute("spellcheck", "true");
-        } else {
-          document.getElementsByTagName("TEXTAREA")[0].setAttribute("spellcheck", "false");
-        }
-      }
-    </script>
-    <br>
-    <br>
-    <a href="https://liamhtml.GitHub.io/jot" id="new-note" target="_blank">New Note</a>
+    <h1>jot</h1>
+    <p style="width: 80%; margin: 0 auto;">Jot is a website for notetaking and whenever you just might
+    need to write something down.</p>
+    <h2 style="font-weight: bold; margin-top: 40px;">New Note</h2>
+    <div style="display: inline-block; margin-top: 25px;">
+      <img src="assets/img/classic-icon.png" width="100" style="border-radius: 5px; display: block; margin: 0 auto;">
+      <a href="https://liamhtml.GitHub.io/jot/classic" id="new-note" target="_blank" style="display: block; max-width: 130px; margin: 0 auto; margin-top: 10px;">New Classic Note</a>
+      <p>The classic jot experience.</p>
+    </div>
+    <div style="display: inline-block; margin-left: 20px;">
+      <img src="assets/img/todo-list-icon.png" width="100" style="border-radius: 5px; display: block; margin: 0 auto;">
+      <a href="https://liamhtml.GitHub.io/jot/todo-list" id="new-note" target="_blank" style="display: block; max-width: 130px; margin: 0 auto; margin-top: 10px;">New To-do List</a>
+      <p>A newer to-do list format.</p>
+    </div>
     <br>
     <br>
     <a href="https://GitHub.com/liamhtml" target="_blank" style="margin-top: 5px; display: inline-block;">GitHub</a>
