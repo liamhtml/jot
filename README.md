@@ -2,14 +2,4 @@
 
 <h1>jot</h1>
 
-<h2>please don't use this</h2>
-<h2>update log</h2>
-
-<p>11/16/2020: Added "spellcheck" checkbox. The purpose is pretty obvious, while it is checked the <code>spellcheck</code> attribute on the <code>textarea</code> element is set to <code>true</code> using some JavaScript. Otherwise, spellcheck will be disabled.</p>
-<p>11/16/2020: Added update log</p>
-  
-<h2>credit</h2>
-
-<ul>
-  <li>Icon made by Freepik from <a href="https://www.flaticon.com">flaticon.com</a></li>
-</ul>
+<h2>moved to <a href="https://github.com/liamhtml/tools/blob/main/jot/README.md">liamhtml/tools</a></h2>
